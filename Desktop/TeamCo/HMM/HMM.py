@@ -3,6 +3,7 @@ import datetime
 import numpy as np
 from matplotlib import cm, pyplot as plt
 from matplotlib.dates import YearLocator, MonthLocator
+
 try:
     from matplotlib.finance import quotes_historical_yahoo_ochl
 except ImportError:
